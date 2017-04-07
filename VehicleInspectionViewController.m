@@ -25,7 +25,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    placeholderArr = [NSArray arrayWithObjects:@"VEHICLE INSPECTION", @"HAVE YOU NOTICED ANY DAMAGES TO THE EXTERIOR BODY?", @"HAVE YOU NOTICED ANY DAMAGES TO THE INTERIOR BODY?", @"IS THERE ANY VISIBLE DEFFECT TO THE VEHICLE, LEAKS, FLAT TYRE, ENGINE SOUND?", @"ENGINE OIL", @"OTHER FUILDS", @"TYRES",@"I HAVE HERE BY DEI HAVE HERE BY DEI HAVE HERE BY DEI HAVE HERE BY DEI HAVE HERE BY DEI HAVE HERE BY DEI HAVE HERE BY DEI HAVE HERE BY DEI HAVE HERE BY DEI HAVE HERE BY DEI HAVE HERE BY DEI HAVE HERE BY DE" , nil];
+    placeholderArr = [NSArray arrayWithObjects:@"VEHICLE INSPECTION", @"HAVE YOU NOTICED ANY DAMAGES TO THE EXTERIOR BODY?", @"HAVE YOU NOTICED ANY DAMAGES TO THE INTERIOR BODY?", @"IS THERE ANY VISIBLE DEFFECT TO THE VEHICLE, LEAKS, FLAT TYRE, ENGINE SOUND?", @"ENGINE OIL", @"OTHER FUILDS", @"TYRES",@"I hereby declare that I have read and understood trademark policy and requirements. I will not consume alcohol or drugs for a period of 24 hours prior to driving nor consume alcohol and drugs while I'm driving. I am medically fit to perform the duties necessary to drive." , nil];
     
     descriptionArr = [NSMutableArray arrayWithObjects:@"0",@"0",@"1",@"0",@"0",@"1",@"0",@"0", nil];
     

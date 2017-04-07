@@ -39,6 +39,13 @@
 		B39919381E9645700030AC40 /* good.png in Resources */ = {isa = PBXBuildFile; fileRef = B39919371E9645700030AC40 /* good.png */; };
 		B399193B1E9646A40030AC40 /* MenuRowTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B399193A1E9646A40030AC40 /* MenuRowTableViewCell.m */; };
 		B3AC69371E9775E00091E68C /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3AC69361E9775E00091E68C /* HistoryViewController.m */; };
+		B3AC693B1E9793000091E68C /* reload.png in Resources */ = {isa = PBXBuildFile; fileRef = B3AC693A1E9793000091E68C /* reload.png */; };
+		B3AC693E1E9794520091E68C /* HistoryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B3AC693D1E9794520091E68C /* HistoryTableViewCell.m */; };
+		B3AC694E1E97B0780091E68C /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3AC69491E97B0780091E68C /* Roboto-Black.ttf */; };
+		B3AC694F1E97B0780091E68C /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3AC694A1E97B0780091E68C /* Roboto-Light.ttf */; };
+		B3AC69501E97B0780091E68C /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3AC694B1E97B0780091E68C /* Roboto-Medium.ttf */; };
+		B3AC69511E97B0780091E68C /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3AC694C1E97B0780091E68C /* Roboto-Regular.ttf */; };
+		B3AC69521E97B0780091E68C /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3AC694D1E97B0780091E68C /* Roboto-Thin.ttf */; };
 		B3DB5B591E95F0ED00D476F6 /* Header.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DB5B581E95F0ED00D476F6 /* Header.m */; };
 		B3DB5B5D1E95F14400D476F6 /* VehicleInspectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DB5B5C1E95F14400D476F6 /* VehicleInspectionViewController.m */; };
 /* End PBXBuildFile section */
@@ -114,6 +121,14 @@
 		B399193A1E9646A40030AC40 /* MenuRowTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuRowTableViewCell.m; sourceTree = "<group>"; };
 		B3AC69351E9775E00091E68C /* HistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryViewController.h; sourceTree = "<group>"; };
 		B3AC69361E9775E00091E68C /* HistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryViewController.m; sourceTree = "<group>"; };
+		B3AC693A1E9793000091E68C /* reload.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reload.png; sourceTree = "<group>"; };
+		B3AC693C1E9794520091E68C /* HistoryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryTableViewCell.h; sourceTree = "<group>"; };
+		B3AC693D1E9794520091E68C /* HistoryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryTableViewCell.m; sourceTree = "<group>"; };
+		B3AC69491E97B0780091E68C /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		B3AC694A1E97B0780091E68C /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		B3AC694B1E97B0780091E68C /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		B3AC694C1E97B0780091E68C /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		B3AC694D1E97B0780091E68C /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
 		B3DB5B551E95F0B900D476F6 /* AppConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppConstant.h; sourceTree = "<group>"; };
 		B3DB5B571E95F0ED00D476F6 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		B3DB5B581E95F0ED00D476F6 /* Header.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Header.m; sourceTree = "<group>"; };
@@ -152,9 +167,10 @@
 		B358845B1E94C60F00458EC9 = {
 			isa = PBXGroup;
 			children = (
+				B3AC69411E97B0250091E68C /* Resources */,
 				B3DB5B541E95F08A00D476F6 /* GlobalClass */,
 				B35884B71E94E8B600458EC9 /* Images */,
-				B35884B21E94E2DF00458EC9 /* ViewController */,
+				B35884B21E94E2DF00458EC9 /* Driver's ViewController */,
 				B358849A1E94CE8C00458EC9 /* MFSideBar */,
 				B35884661E94C60F00458EC9 /* Trademark Tansport */,
 				B35884801E94C60F00458EC9 /* Trademark TansportTests */,
@@ -246,7 +262,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		B35884B21E94E2DF00458EC9 /* ViewController */ = {
+		B35884B21E94E2DF00458EC9 /* Driver's ViewController */ = {
 			isa = PBXGroup;
 			children = (
 				B3AC69341E97758E0091E68C /* HistoryViewController */,
@@ -255,7 +271,7 @@
 				B35884BC1E94EEC200458EC9 /* LoginFormViewCotroller */,
 				B35884B31E94E2E800458EC9 /* LoginViewController */,
 			);
-			name = ViewController;
+			name = "Driver's ViewController";
 			sourceTree = "<group>";
 		};
 		B35884B31E94E2E800458EC9 /* LoginViewController */ = {
@@ -270,6 +286,7 @@
 		B35884B71E94E8B600458EC9 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				B3AC693A1E9793000091E68C /* reload.png */,
 				B39919371E9645700030AC40 /* good.png */,
 				B399192B1E963E250030AC40 /* bad.png */,
 				B399192C1E963E250030AC40 /* disable.png */,
@@ -308,8 +325,30 @@
 			children = (
 				B3AC69351E9775E00091E68C /* HistoryViewController.h */,
 				B3AC69361E9775E00091E68C /* HistoryViewController.m */,
+				B3AC693C1E9794520091E68C /* HistoryTableViewCell.h */,
+				B3AC693D1E9794520091E68C /* HistoryTableViewCell.m */,
 			);
 			name = HistoryViewController;
+			sourceTree = "<group>";
+		};
+		B3AC69411E97B0250091E68C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B3AC69421E97B02B0091E68C /* Fonts */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B3AC69421E97B02B0091E68C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B3AC69491E97B0780091E68C /* Roboto-Black.ttf */,
+				B3AC694A1E97B0780091E68C /* Roboto-Light.ttf */,
+				B3AC694B1E97B0780091E68C /* Roboto-Medium.ttf */,
+				B3AC694C1E97B0780091E68C /* Roboto-Regular.ttf */,
+				B3AC694D1E97B0780091E68C /* Roboto-Thin.ttf */,
+			);
+			name = Fonts;
 			sourceTree = "<group>";
 		};
 		B3DB5B541E95F08A00D476F6 /* GlobalClass */ = {
@@ -439,16 +478,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3AC69501E97B0780091E68C /* Roboto-Medium.ttf in Resources */,
 				B39919321E963E250030AC40 /* low.png in Resources */,
+				B3AC693B1E9793000091E68C /* reload.png in Resources */,
+				B3AC694F1E97B0780091E68C /* Roboto-Light.ttf in Resources */,
 				B35884771E94C60F00458EC9 /* LaunchScreen.storyboard in Resources */,
 				B35884741E94C60F00458EC9 /* Assets.xcassets in Resources */,
 				B35884C51E94F02000458EC9 /* avatar-inside-a-circle.png in Resources */,
 				B399192F1E963E250030AC40 /* bad.png in Resources */,
+				B3AC69521E97B0780091E68C /* Roboto-Thin.ttf in Resources */,
 				B39919301E963E250030AC40 /* disable.png in Resources */,
 				B35884C91E94F09600458EC9 /* search.png in Resources */,
 				B35884721E94C60F00458EC9 /* Main.storyboard in Resources */,
 				B39919381E9645700030AC40 /* good.png in Resources */,
 				B35884CE1E9504BD00458EC9 /* check-circular-button.png in Resources */,
+				B3AC694E1E97B0780091E68C /* Roboto-Black.ttf in Resources */,
+				B3AC69511E97B0780091E68C /* Roboto-Regular.ttf in Resources */,
 				B35884C61E94F02000458EC9 /* bars.png in Resources */,
 				B35884C71E94F02000458EC9 /* truck.jpg in Resources */,
 			);
@@ -477,6 +522,7 @@
 			files = (
 				B358846F1E94C60F00458EC9 /* ViewController.m in Sources */,
 				B399193B1E9646A40030AC40 /* MenuRowTableViewCell.m in Sources */,
+				B3AC693E1E9794520091E68C /* HistoryTableViewCell.m in Sources */,
 				B3DB5B5D1E95F14400D476F6 /* VehicleInspectionViewController.m in Sources */,
 				B35884A21E94CEA100458EC9 /* MFSideMenuContainerViewController.m in Sources */,
 				B35884BF1E94EEDB00458EC9 /* LoginFormViewController.m in Sources */,

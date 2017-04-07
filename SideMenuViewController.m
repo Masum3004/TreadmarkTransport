@@ -68,11 +68,14 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
+    NSArray *array = [NSArray arrayWithObjects:@"OPERATION",@"OPERATION",@"HISTORY",@"OPERATION",@"OPERATION",@"OPERATION",@"OPERATION", nil];
     
-    OperationViewController *demoViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"OPERATION"];
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    
+    UIViewController *viewController = [self.storyboard instantiateViewControllerWithIdentifier:[array objectAtIndex:indexPath.row]];
     
     UINavigationController *navigationController = self.menuContainerViewController.centerViewController;
-    NSArray *controllers = [NSArray arrayWithObject:demoViewController];
+    NSArray *controllers = [NSArray arrayWithObject:viewController];
     
     navigationController.viewControllers = controllers;
     [self.menuContainerViewController setMenuState:MFSideMenuStateClosed];
