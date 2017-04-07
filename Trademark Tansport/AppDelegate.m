@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "MFSideMenuContainerViewController.h"
+
 
 @interface AppDelegate ()
 
@@ -17,6 +19,23 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]];
+    MFSideMenuContainerViewController *container = (MFSideMenuContainerViewController *)self.window.rootViewController;
+    UINavigationController *navigationController = [storyboard instantiateViewControllerWithIdentifier:@"navigationController"];
+    UIViewController *leftSideMenuViewController = [storyboard instantiateViewControllerWithIdentifier:@"leftSideMenuViewController"];
+    UIViewController *rightSideMenuViewController = [storyboard instantiateViewControllerWithIdentifier:@"rightSideMenuViewController"];
+    
+    [container setLeftMenuViewController:leftSideMenuViewController];
+    [container setRightMenuViewController:rightSideMenuViewController];
+    [container setCenterViewController:navigationController];
+    
+    [[UIApplication sharedApplication] setStatusBarHidden:false];
+    UIView *statusBar=[[UIApplication sharedApplication] valueForKey:@"statusBar"];
+    statusBar.backgroundColor = [UIColor colorWithRed:(37/255.0) green:(36/255.0) blue:(37/255.0) alpha:1.0];
+    
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleDefault];
+
     return YES;
 }
 

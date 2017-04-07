@@ -15,6 +15,32 @@
 		B35884771E94C60F00458EC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B35884751E94C60F00458EC9 /* LaunchScreen.storyboard */; };
 		B35884821E94C60F00458EC9 /* Trademark_TansportTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B35884811E94C60F00458EC9 /* Trademark_TansportTests.m */; };
 		B358848D1E94C60F00458EC9 /* Trademark_TansportUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B358848C1E94C60F00458EC9 /* Trademark_TansportUITests.m */; };
+		B35884A21E94CEA100458EC9 /* MFSideMenuContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B358849D1E94CEA100458EC9 /* MFSideMenuContainerViewController.m */; };
+		B35884A31E94CEA100458EC9 /* MFSideMenuShadow.m in Sources */ = {isa = PBXBuildFile; fileRef = B358849F1E94CEA100458EC9 /* MFSideMenuShadow.m */; };
+		B35884A41E94CEA100458EC9 /* UIViewController+MFSideMenuAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B35884A11E94CEA100458EC9 /* UIViewController+MFSideMenuAdditions.m */; };
+		B35884A91E94CEB800458EC9 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B35884A61E94CEB800458EC9 /* DemoViewController.m */; };
+		B35884AA1E94CEB800458EC9 /* SideMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B35884A81E94CEB800458EC9 /* SideMenuViewController.m */; };
+		B35884AD1E94CF1300458EC9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B35884AC1E94CF1300458EC9 /* UIKit.framework */; };
+		B35884AF1E94CF1D00458EC9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B35884AE1E94CF1D00458EC9 /* Foundation.framework */; };
+		B35884B11E94CF2400458EC9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B35884B01E94CF2400458EC9 /* CoreGraphics.framework */; };
+		B35884B61E94E30500458EC9 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B35884B51E94E30500458EC9 /* LoginViewController.m */; };
+		B35884BF1E94EEDB00458EC9 /* LoginFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B35884BE1E94EEDB00458EC9 /* LoginFormViewController.m */; };
+		B35884C51E94F02000458EC9 /* avatar-inside-a-circle.png in Resources */ = {isa = PBXBuildFile; fileRef = B35884C21E94F02000458EC9 /* avatar-inside-a-circle.png */; };
+		B35884C61E94F02000458EC9 /* bars.png in Resources */ = {isa = PBXBuildFile; fileRef = B35884C31E94F02000458EC9 /* bars.png */; };
+		B35884C71E94F02000458EC9 /* truck.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B35884C41E94F02000458EC9 /* truck.jpg */; };
+		B35884C91E94F09600458EC9 /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = B35884C81E94F09600458EC9 /* search.png */; };
+		B35884CC1E94F4BC00458EC9 /* LoginFormTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B35884CB1E94F4BC00458EC9 /* LoginFormTableViewCell.m */; };
+		B35884CE1E9504BD00458EC9 /* check-circular-button.png in Resources */ = {isa = PBXBuildFile; fileRef = B35884CD1E9504BD00458EC9 /* check-circular-button.png */; };
+		B399192A1E9609D30030AC40 /* VehicleInspectionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B39919291E9609D30030AC40 /* VehicleInspectionTableViewCell.m */; };
+		B399192F1E963E250030AC40 /* bad.png in Resources */ = {isa = PBXBuildFile; fileRef = B399192B1E963E250030AC40 /* bad.png */; };
+		B39919301E963E250030AC40 /* disable.png in Resources */ = {isa = PBXBuildFile; fileRef = B399192C1E963E250030AC40 /* disable.png */; };
+		B39919321E963E250030AC40 /* low.png in Resources */ = {isa = PBXBuildFile; fileRef = B399192E1E963E250030AC40 /* low.png */; };
+		B39919361E9642A10030AC40 /* OperationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B39919351E9642A10030AC40 /* OperationViewController.m */; };
+		B39919381E9645700030AC40 /* good.png in Resources */ = {isa = PBXBuildFile; fileRef = B39919371E9645700030AC40 /* good.png */; };
+		B399193B1E9646A40030AC40 /* MenuRowTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B399193A1E9646A40030AC40 /* MenuRowTableViewCell.m */; };
+		B3AC69371E9775E00091E68C /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3AC69361E9775E00091E68C /* HistoryViewController.m */; };
+		B3DB5B591E95F0ED00D476F6 /* Header.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DB5B581E95F0ED00D476F6 /* Header.m */; };
+		B3DB5B5D1E95F14400D476F6 /* VehicleInspectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DB5B5C1E95F14400D476F6 /* VehicleInspectionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +77,48 @@
 		B35884881E94C60F00458EC9 /* Trademark TansportUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Trademark TansportUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B358848C1E94C60F00458EC9 /* Trademark_TansportUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Trademark_TansportUITests.m; sourceTree = "<group>"; };
 		B358848E1E94C60F00458EC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B358849B1E94CEA100458EC9 /* MFSideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSideMenu.h; sourceTree = "<group>"; };
+		B358849C1E94CEA100458EC9 /* MFSideMenuContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSideMenuContainerViewController.h; sourceTree = "<group>"; };
+		B358849D1E94CEA100458EC9 /* MFSideMenuContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFSideMenuContainerViewController.m; sourceTree = "<group>"; };
+		B358849E1E94CEA100458EC9 /* MFSideMenuShadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSideMenuShadow.h; sourceTree = "<group>"; };
+		B358849F1E94CEA100458EC9 /* MFSideMenuShadow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFSideMenuShadow.m; sourceTree = "<group>"; };
+		B35884A01E94CEA100458EC9 /* UIViewController+MFSideMenuAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MFSideMenuAdditions.h"; sourceTree = "<group>"; };
+		B35884A11E94CEA100458EC9 /* UIViewController+MFSideMenuAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MFSideMenuAdditions.m"; sourceTree = "<group>"; };
+		B35884A51E94CEB800458EC9 /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		B35884A61E94CEB800458EC9 /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+		B35884A71E94CEB800458EC9 /* SideMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideMenuViewController.h; sourceTree = "<group>"; };
+		B35884A81E94CEB800458EC9 /* SideMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideMenuViewController.m; sourceTree = "<group>"; };
+		B35884AC1E94CF1300458EC9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B35884AE1E94CF1D00458EC9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B35884B01E94CF2400458EC9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B35884B41E94E30500458EC9 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		B35884B51E94E30500458EC9 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		B35884BD1E94EEDB00458EC9 /* LoginFormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginFormViewController.h; sourceTree = "<group>"; };
+		B35884BE1E94EEDB00458EC9 /* LoginFormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginFormViewController.m; sourceTree = "<group>"; };
+		B35884C21E94F02000458EC9 /* avatar-inside-a-circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "avatar-inside-a-circle.png"; sourceTree = "<group>"; };
+		B35884C31E94F02000458EC9 /* bars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bars.png; sourceTree = "<group>"; };
+		B35884C41E94F02000458EC9 /* truck.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = truck.jpg; sourceTree = "<group>"; };
+		B35884C81E94F09600458EC9 /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
+		B35884CA1E94F4BC00458EC9 /* LoginFormTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginFormTableViewCell.h; sourceTree = "<group>"; };
+		B35884CB1E94F4BC00458EC9 /* LoginFormTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginFormTableViewCell.m; sourceTree = "<group>"; };
+		B35884CD1E9504BD00458EC9 /* check-circular-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "check-circular-button.png"; sourceTree = "<group>"; };
+		B39919281E9609D30030AC40 /* VehicleInspectionTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VehicleInspectionTableViewCell.h; sourceTree = "<group>"; };
+		B39919291E9609D30030AC40 /* VehicleInspectionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VehicleInspectionTableViewCell.m; sourceTree = "<group>"; };
+		B399192B1E963E250030AC40 /* bad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bad.png; sourceTree = "<group>"; };
+		B399192C1E963E250030AC40 /* disable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = disable.png; sourceTree = "<group>"; };
+		B399192E1E963E250030AC40 /* low.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = low.png; sourceTree = "<group>"; };
+		B39919341E9642A10030AC40 /* OperationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationViewController.h; sourceTree = "<group>"; };
+		B39919351E9642A10030AC40 /* OperationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperationViewController.m; sourceTree = "<group>"; };
+		B39919371E9645700030AC40 /* good.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = good.png; sourceTree = "<group>"; };
+		B39919391E9646A40030AC40 /* MenuRowTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuRowTableViewCell.h; sourceTree = "<group>"; };
+		B399193A1E9646A40030AC40 /* MenuRowTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuRowTableViewCell.m; sourceTree = "<group>"; };
+		B3AC69351E9775E00091E68C /* HistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryViewController.h; sourceTree = "<group>"; };
+		B3AC69361E9775E00091E68C /* HistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryViewController.m; sourceTree = "<group>"; };
+		B3DB5B551E95F0B900D476F6 /* AppConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppConstant.h; sourceTree = "<group>"; };
+		B3DB5B571E95F0ED00D476F6 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		B3DB5B581E95F0ED00D476F6 /* Header.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Header.m; sourceTree = "<group>"; };
+		B3DB5B5B1E95F14400D476F6 /* VehicleInspectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VehicleInspectionViewController.h; sourceTree = "<group>"; };
+		B3DB5B5C1E95F14400D476F6 /* VehicleInspectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VehicleInspectionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +126,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B35884B11E94CF2400458EC9 /* CoreGraphics.framework in Frameworks */,
+				B35884AF1E94CF1D00458EC9 /* Foundation.framework in Frameworks */,
+				B35884AD1E94CF1300458EC9 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,10 +152,15 @@
 		B358845B1E94C60F00458EC9 = {
 			isa = PBXGroup;
 			children = (
+				B3DB5B541E95F08A00D476F6 /* GlobalClass */,
+				B35884B71E94E8B600458EC9 /* Images */,
+				B35884B21E94E2DF00458EC9 /* ViewController */,
+				B358849A1E94CE8C00458EC9 /* MFSideBar */,
 				B35884661E94C60F00458EC9 /* Trademark Tansport */,
 				B35884801E94C60F00458EC9 /* Trademark TansportTests */,
 				B358848B1E94C60F00458EC9 /* Trademark TansportUITests */,
 				B35884651E94C60F00458EC9 /* Products */,
+				B35884AB1E94CF1300458EC9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -138,6 +214,123 @@
 				B358848E1E94C60F00458EC9 /* Info.plist */,
 			);
 			path = "Trademark TansportUITests";
+			sourceTree = "<group>";
+		};
+		B358849A1E94CE8C00458EC9 /* MFSideBar */ = {
+			isa = PBXGroup;
+			children = (
+				B35884A51E94CEB800458EC9 /* DemoViewController.h */,
+				B35884A61E94CEB800458EC9 /* DemoViewController.m */,
+				B35884A71E94CEB800458EC9 /* SideMenuViewController.h */,
+				B35884A81E94CEB800458EC9 /* SideMenuViewController.m */,
+				B358849B1E94CEA100458EC9 /* MFSideMenu.h */,
+				B358849C1E94CEA100458EC9 /* MFSideMenuContainerViewController.h */,
+				B358849D1E94CEA100458EC9 /* MFSideMenuContainerViewController.m */,
+				B358849E1E94CEA100458EC9 /* MFSideMenuShadow.h */,
+				B358849F1E94CEA100458EC9 /* MFSideMenuShadow.m */,
+				B35884A01E94CEA100458EC9 /* UIViewController+MFSideMenuAdditions.h */,
+				B35884A11E94CEA100458EC9 /* UIViewController+MFSideMenuAdditions.m */,
+				B39919391E9646A40030AC40 /* MenuRowTableViewCell.h */,
+				B399193A1E9646A40030AC40 /* MenuRowTableViewCell.m */,
+			);
+			name = MFSideBar;
+			sourceTree = "<group>";
+		};
+		B35884AB1E94CF1300458EC9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B35884B01E94CF2400458EC9 /* CoreGraphics.framework */,
+				B35884AE1E94CF1D00458EC9 /* Foundation.framework */,
+				B35884AC1E94CF1300458EC9 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B35884B21E94E2DF00458EC9 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B3AC69341E97758E0091E68C /* HistoryViewController */,
+				B39919331E96428C0030AC40 /* OperationViewController */,
+				B3DB5B5A1E95F11300D476F6 /* VehicleInspectionViewController */,
+				B35884BC1E94EEC200458EC9 /* LoginFormViewCotroller */,
+				B35884B31E94E2E800458EC9 /* LoginViewController */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		B35884B31E94E2E800458EC9 /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B35884B41E94E30500458EC9 /* LoginViewController.h */,
+				B35884B51E94E30500458EC9 /* LoginViewController.m */,
+			);
+			name = LoginViewController;
+			sourceTree = "<group>";
+		};
+		B35884B71E94E8B600458EC9 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B39919371E9645700030AC40 /* good.png */,
+				B399192B1E963E250030AC40 /* bad.png */,
+				B399192C1E963E250030AC40 /* disable.png */,
+				B399192E1E963E250030AC40 /* low.png */,
+				B35884CD1E9504BD00458EC9 /* check-circular-button.png */,
+				B35884C81E94F09600458EC9 /* search.png */,
+				B35884C21E94F02000458EC9 /* avatar-inside-a-circle.png */,
+				B35884C31E94F02000458EC9 /* bars.png */,
+				B35884C41E94F02000458EC9 /* truck.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		B35884BC1E94EEC200458EC9 /* LoginFormViewCotroller */ = {
+			isa = PBXGroup;
+			children = (
+				B35884BD1E94EEDB00458EC9 /* LoginFormViewController.h */,
+				B35884BE1E94EEDB00458EC9 /* LoginFormViewController.m */,
+				B35884CA1E94F4BC00458EC9 /* LoginFormTableViewCell.h */,
+				B35884CB1E94F4BC00458EC9 /* LoginFormTableViewCell.m */,
+			);
+			name = LoginFormViewCotroller;
+			sourceTree = "<group>";
+		};
+		B39919331E96428C0030AC40 /* OperationViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B39919341E9642A10030AC40 /* OperationViewController.h */,
+				B39919351E9642A10030AC40 /* OperationViewController.m */,
+			);
+			name = OperationViewController;
+			sourceTree = "<group>";
+		};
+		B3AC69341E97758E0091E68C /* HistoryViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B3AC69351E9775E00091E68C /* HistoryViewController.h */,
+				B3AC69361E9775E00091E68C /* HistoryViewController.m */,
+			);
+			name = HistoryViewController;
+			sourceTree = "<group>";
+		};
+		B3DB5B541E95F08A00D476F6 /* GlobalClass */ = {
+			isa = PBXGroup;
+			children = (
+				B3DB5B551E95F0B900D476F6 /* AppConstant.h */,
+				B3DB5B571E95F0ED00D476F6 /* Header.h */,
+				B3DB5B581E95F0ED00D476F6 /* Header.m */,
+			);
+			name = GlobalClass;
+			sourceTree = "<group>";
+		};
+		B3DB5B5A1E95F11300D476F6 /* VehicleInspectionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B3DB5B5B1E95F14400D476F6 /* VehicleInspectionViewController.h */,
+				B3DB5B5C1E95F14400D476F6 /* VehicleInspectionViewController.m */,
+				B39919281E9609D30030AC40 /* VehicleInspectionTableViewCell.h */,
+				B39919291E9609D30030AC40 /* VehicleInspectionTableViewCell.m */,
+			);
+			name = VehicleInspectionViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,9 +439,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B39919321E963E250030AC40 /* low.png in Resources */,
 				B35884771E94C60F00458EC9 /* LaunchScreen.storyboard in Resources */,
 				B35884741E94C60F00458EC9 /* Assets.xcassets in Resources */,
+				B35884C51E94F02000458EC9 /* avatar-inside-a-circle.png in Resources */,
+				B399192F1E963E250030AC40 /* bad.png in Resources */,
+				B39919301E963E250030AC40 /* disable.png in Resources */,
+				B35884C91E94F09600458EC9 /* search.png in Resources */,
 				B35884721E94C60F00458EC9 /* Main.storyboard in Resources */,
+				B39919381E9645700030AC40 /* good.png in Resources */,
+				B35884CE1E9504BD00458EC9 /* check-circular-button.png in Resources */,
+				B35884C61E94F02000458EC9 /* bars.png in Resources */,
+				B35884C71E94F02000458EC9 /* truck.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +476,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				B358846F1E94C60F00458EC9 /* ViewController.m in Sources */,
+				B399193B1E9646A40030AC40 /* MenuRowTableViewCell.m in Sources */,
+				B3DB5B5D1E95F14400D476F6 /* VehicleInspectionViewController.m in Sources */,
+				B35884A21E94CEA100458EC9 /* MFSideMenuContainerViewController.m in Sources */,
+				B35884BF1E94EEDB00458EC9 /* LoginFormViewController.m in Sources */,
+				B3AC69371E9775E00091E68C /* HistoryViewController.m in Sources */,
+				B399192A1E9609D30030AC40 /* VehicleInspectionTableViewCell.m in Sources */,
+				B35884CC1E94F4BC00458EC9 /* LoginFormTableViewCell.m in Sources */,
+				B3DB5B591E95F0ED00D476F6 /* Header.m in Sources */,
+				B39919361E9642A10030AC40 /* OperationViewController.m in Sources */,
+				B35884A31E94CEA100458EC9 /* MFSideMenuShadow.m in Sources */,
+				B35884A41E94CEA100458EC9 /* UIViewController+MFSideMenuAdditions.m in Sources */,
+				B35884AA1E94CEB800458EC9 /* SideMenuViewController.m in Sources */,
+				B35884B61E94E30500458EC9 /* LoginViewController.m in Sources */,
 				B358846C1E94C60F00458EC9 /* AppDelegate.m in Sources */,
+				B35884A91E94CEB800458EC9 /* DemoViewController.m in Sources */,
 				B35884691E94C60F00458EC9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -427,6 +643,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Trademark Tansport/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Adcreators.Trademark-Tansport";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -438,6 +655,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Trademark Tansport/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Adcreators.Trademark-Tansport";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -509,6 +727,7 @@
 				B35884931E94C60F00458EC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B35884941E94C60F00458EC9 /* Build configuration list for PBXNativeTarget "Trademark TansportTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +736,7 @@
 				B35884961E94C60F00458EC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B35884971E94C60F00458EC9 /* Build configuration list for PBXNativeTarget "Trademark TansportUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +745,7 @@
 				B35884991E94C60F00458EC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
