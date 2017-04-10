@@ -23,7 +23,9 @@
 
 #define HISTORY_Identifier @"HISTORY"
 
+#define MYTRUCK_Identifier @"MY_TRUCK"
 
+#define MYPROFILE_Indetifier @"MY_PROFILE"
 
 
 

@@ -11,7 +11,6 @@
 #import "HistoryTableViewCell.h"
 
 
-
 @interface HistoryViewController ()
 
 @end
@@ -53,6 +52,7 @@
     cell.containerView.layer.shadowColor = [[UIColor grayColor] CGColor];
     cell.containerView.layer.shadowOffset = CGSizeMake(1,0);
     cell.containerView.layer.shadowOpacity = 0.8;
+    
     return cell;
 }
 

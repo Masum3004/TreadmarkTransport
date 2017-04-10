@@ -43,7 +43,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     
-    return 9;    //count number of row from counting array hear cataGorry is An Array
+    return 9;    //count number of row from counting array hear catagory is An Array
 }
 
 
