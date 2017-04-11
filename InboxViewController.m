@@ -91,21 +91,22 @@
     return cell;
 }
 
-- (void)tabBar:(UITabBar *)tabBar didSelectItem:(UITabBarItem *)item{
-    
-    NSLog(@"----->> %ld",(long)tabBar.selectedItem.tag);
+- (void)tabBar:(UITabBar *)tabBar didSelectItem:(UITabBarItem *)item {
     
     switch (item.tag) {
         
         case 0:
             [self.lblTitleNavigation setText:@"INBOX"];
             break;
+            
         case 1:
             [self.lblTitleNavigation setText:@"FAVOURITE"];
             break;
+            
         case 2:
             [self.lblTitleNavigation setText:@"TRASH"];
             break;
+            
         default:
             break;
     }
