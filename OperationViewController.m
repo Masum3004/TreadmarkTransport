@@ -29,5 +29,8 @@
     [self.menuContainerViewController toggleLeftSideMenuCompletion:nil];
 }
 
-
+- (void)tabBar:(UITabBar *)tabBar didSelectItem:(UITabBarItem *)item{
+    
+    NSLog(@"----->> %ld",(long)tabBar.itemPositioning);
+}
 @end

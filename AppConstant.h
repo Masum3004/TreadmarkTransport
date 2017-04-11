@@ -27,6 +27,6 @@
 
 #define MYPROFILE_Indetifier @"MY_PROFILE"
 
-
+#define INBOX_Identifier @"INBOX"
 
 #endif /* AppConstant_h */

@@ -68,7 +68,7 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    NSArray *array = [NSArray arrayWithObjects:@"MY_PROFILE",@"OPERATION",@"HISTORY",@"MY_TRUCK",@"OPERATION",@"OPERATION",@"MY_PROFILE", nil];
+    NSArray *array = [NSArray arrayWithObjects:@"MY_PROFILE",@"OPERATION",@"HISTORY",@"MY_TRUCK",@"OPERATION",@"INBOX",@"MY_PROFILE", nil];
     
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     

@@ -48,6 +48,24 @@
 		B3AC69521E97B0780091E68C /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3AC694D1E97B0780091E68C /* Roboto-Thin.ttf */; };
 		B3DB5B591E95F0ED00D476F6 /* Header.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DB5B581E95F0ED00D476F6 /* Header.m */; };
 		B3DB5B5D1E95F14400D476F6 /* VehicleInspectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DB5B5C1E95F14400D476F6 /* VehicleInspectionViewController.m */; };
+		B3E9F94E1E9C961500973F14 /* InboxTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E9F94D1E9C961500973F14 /* InboxTableViewCell.m */; };
+		B3E9F9511E9C962200973F14 /* InboxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E9F9501E9C962200973F14 /* InboxViewController.m */; };
+		B3E9F95D1E9C97CF00973F14 /* CreateMessage.png in Resources */ = {isa = PBXBuildFile; fileRef = B3E9F9531E9C97CF00973F14 /* CreateMessage.png */; };
+		B3E9F95E1E9C97CF00973F14 /* Delete.png in Resources */ = {isa = PBXBuildFile; fileRef = B3E9F9541E9C97CF00973F14 /* Delete.png */; };
+		B3E9F95F1E9C97CF00973F14 /* Favourite-Active.png in Resources */ = {isa = PBXBuildFile; fileRef = B3E9F9551E9C97CF00973F14 /* Favourite-Active.png */; };
+		B3E9F9601E9C97CF00973F14 /* Favourite.png in Resources */ = {isa = PBXBuildFile; fileRef = B3E9F9561E9C97CF00973F14 /* Favourite.png */; };
+		B3E9F9611E9C97CF00973F14 /* FavTab-Active.png in Resources */ = {isa = PBXBuildFile; fileRef = B3E9F9571E9C97CF00973F14 /* FavTab-Active.png */; };
+		B3E9F9621E9C97CF00973F14 /* FavTab.png in Resources */ = {isa = PBXBuildFile; fileRef = B3E9F9581E9C97CF00973F14 /* FavTab.png */; };
+		B3E9F9631E9C97CF00973F14 /* InboxTab-Active.png in Resources */ = {isa = PBXBuildFile; fileRef = B3E9F9591E9C97CF00973F14 /* InboxTab-Active.png */; };
+		B3E9F9641E9C97CF00973F14 /* InboxTab.png in Resources */ = {isa = PBXBuildFile; fileRef = B3E9F95A1E9C97CF00973F14 /* InboxTab.png */; };
+		B3E9F9651E9C97CF00973F14 /* TrashTab-Active.png in Resources */ = {isa = PBXBuildFile; fileRef = B3E9F95B1E9C97CF00973F14 /* TrashTab-Active.png */; };
+		B3E9F9661E9C97CF00973F14 /* TrashTab.png in Resources */ = {isa = PBXBuildFile; fileRef = B3E9F95C1E9C97CF00973F14 /* TrashTab.png */; };
+		B3E9F9681E9C9E3700973F14 /* SearchIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = B3E9F9671E9C9E3700973F14 /* SearchIcon.png */; };
+		B3E9F96A1E9C9EE300973F14 /* magnifying-glass.png in Resources */ = {isa = PBXBuildFile; fileRef = B3E9F9691E9C9EE300973F14 /* magnifying-glass.png */; };
+		B3E9F96C1E9C9F0900973F14 /* search (1).png in Resources */ = {isa = PBXBuildFile; fileRef = B3E9F96B1E9C9F0900973F14 /* search (1).png */; };
+		B3E9F96E1E9CA3C700973F14 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3E9F96D1E9CA3C700973F14 /* Roboto-Italic.ttf */; };
+		B3E9F9731E9CB36D00973F14 /* refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = B3E9F9721E9CB36D00973F14 /* refresh.png */; };
+		B3E9F9751E9CB50700973F14 /* fav_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B3E9F9741E9CB50700973F14 /* fav_icon.png */; };
 		B3F01BBD1E9B450C00E70830 /* MyTruckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F01BBC1E9B450C00E70830 /* MyTruckViewController.m */; };
 		B3F01BBF1E9B599000E70830 /* meter-car-speed.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B3F01BBE1E9B599000E70830 /* meter-car-speed.jpg */; };
 		B3F01BC21E9B5ADC00E70830 /* Camera.png in Resources */ = {isa = PBXBuildFile; fileRef = B3F01BC11E9B5ADC00E70830 /* Camera.png */; };
@@ -141,6 +159,26 @@
 		B3DB5B581E95F0ED00D476F6 /* Header.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Header.m; sourceTree = "<group>"; };
 		B3DB5B5B1E95F14400D476F6 /* VehicleInspectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VehicleInspectionViewController.h; sourceTree = "<group>"; };
 		B3DB5B5C1E95F14400D476F6 /* VehicleInspectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VehicleInspectionViewController.m; sourceTree = "<group>"; };
+		B3E9F94C1E9C961500973F14 /* InboxTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InboxTableViewCell.h; sourceTree = "<group>"; };
+		B3E9F94D1E9C961500973F14 /* InboxTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InboxTableViewCell.m; sourceTree = "<group>"; };
+		B3E9F94F1E9C962200973F14 /* InboxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InboxViewController.h; sourceTree = "<group>"; };
+		B3E9F9501E9C962200973F14 /* InboxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InboxViewController.m; sourceTree = "<group>"; };
+		B3E9F9531E9C97CF00973F14 /* CreateMessage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CreateMessage.png; sourceTree = "<group>"; };
+		B3E9F9541E9C97CF00973F14 /* Delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Delete.png; sourceTree = "<group>"; };
+		B3E9F9551E9C97CF00973F14 /* Favourite-Active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Favourite-Active.png"; sourceTree = "<group>"; };
+		B3E9F9561E9C97CF00973F14 /* Favourite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Favourite.png; sourceTree = "<group>"; };
+		B3E9F9571E9C97CF00973F14 /* FavTab-Active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FavTab-Active.png"; sourceTree = "<group>"; };
+		B3E9F9581E9C97CF00973F14 /* FavTab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FavTab.png; sourceTree = "<group>"; };
+		B3E9F9591E9C97CF00973F14 /* InboxTab-Active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "InboxTab-Active.png"; sourceTree = "<group>"; };
+		B3E9F95A1E9C97CF00973F14 /* InboxTab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = InboxTab.png; sourceTree = "<group>"; };
+		B3E9F95B1E9C97CF00973F14 /* TrashTab-Active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TrashTab-Active.png"; sourceTree = "<group>"; };
+		B3E9F95C1E9C97CF00973F14 /* TrashTab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TrashTab.png; sourceTree = "<group>"; };
+		B3E9F9671E9C9E3700973F14 /* SearchIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SearchIcon.png; sourceTree = "<group>"; };
+		B3E9F9691E9C9EE300973F14 /* magnifying-glass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "magnifying-glass.png"; sourceTree = "<group>"; };
+		B3E9F96B1E9C9F0900973F14 /* search (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search (1).png"; sourceTree = "<group>"; };
+		B3E9F96D1E9CA3C700973F14 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		B3E9F9721E9CB36D00973F14 /* refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = refresh.png; sourceTree = "<group>"; };
+		B3E9F9741E9CB50700973F14 /* fav_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fav_icon.png; sourceTree = "<group>"; };
 		B3F01BBB1E9B450C00E70830 /* MyTruckViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTruckViewController.h; sourceTree = "<group>"; };
 		B3F01BBC1E9B450C00E70830 /* MyTruckViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTruckViewController.m; sourceTree = "<group>"; };
 		B3F01BBE1E9B599000E70830 /* meter-car-speed.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "meter-car-speed.jpg"; sourceTree = "<group>"; };
@@ -282,6 +320,7 @@
 		B35884B21E94E2DF00458EC9 /* Driver's ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				B3E9F94A1E9C95F100973F14 /* InboxViewController */,
 				B3F01BC51E9BA02B00E70830 /* MyProfileViewController */,
 				B3F01BBA1E9B44F300E70830 /* MyTruck */,
 				B3AC69341E97758E0091E68C /* HistoryViewController */,
@@ -305,8 +344,8 @@
 		B35884B71E94E8B600458EC9 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				B3F01BC31E9B617000E70830 /* Login-Backgrd.jpg */,
-				B3F01BC11E9B5ADC00E70830 /* Camera.png */,
+				B3E9F96F1E9CB32200973F14 /* Others */,
+				B3E9F9521E9C97B800973F14 /* Inbox_Icons */,
 				B3F01BC01E9B5AC600E70830 /* dummy */,
 			);
 			name = Images;
@@ -354,6 +393,7 @@
 		B3AC69421E97B02B0091E68C /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				B3E9F96D1E9CA3C700973F14 /* Roboto-Italic.ttf */,
 				B3AC69491E97B0780091E68C /* Roboto-Black.ttf */,
 				B3AC694A1E97B0780091E68C /* Roboto-Light.ttf */,
 				B3AC694B1E97B0780091E68C /* Roboto-Medium.ttf */,
@@ -384,6 +424,46 @@
 			name = VehicleInspectionViewController;
 			sourceTree = "<group>";
 		};
+		B3E9F94A1E9C95F100973F14 /* InboxViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B3E9F94F1E9C962200973F14 /* InboxViewController.h */,
+				B3E9F9501E9C962200973F14 /* InboxViewController.m */,
+				B3E9F94C1E9C961500973F14 /* InboxTableViewCell.h */,
+				B3E9F94D1E9C961500973F14 /* InboxTableViewCell.m */,
+			);
+			name = InboxViewController;
+			sourceTree = "<group>";
+		};
+		B3E9F9521E9C97B800973F14 /* Inbox_Icons */ = {
+			isa = PBXGroup;
+			children = (
+				B3E9F9741E9CB50700973F14 /* fav_icon.png */,
+				B3E9F9671E9C9E3700973F14 /* SearchIcon.png */,
+				B3E9F9531E9C97CF00973F14 /* CreateMessage.png */,
+				B3E9F9541E9C97CF00973F14 /* Delete.png */,
+				B3E9F9551E9C97CF00973F14 /* Favourite-Active.png */,
+				B3E9F9561E9C97CF00973F14 /* Favourite.png */,
+				B3E9F9571E9C97CF00973F14 /* FavTab-Active.png */,
+				B3E9F9581E9C97CF00973F14 /* FavTab.png */,
+				B3E9F9591E9C97CF00973F14 /* InboxTab-Active.png */,
+				B3E9F95A1E9C97CF00973F14 /* InboxTab.png */,
+				B3E9F95B1E9C97CF00973F14 /* TrashTab-Active.png */,
+				B3E9F95C1E9C97CF00973F14 /* TrashTab.png */,
+			);
+			name = Inbox_Icons;
+			sourceTree = "<group>";
+		};
+		B3E9F96F1E9CB32200973F14 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				B3F01BC31E9B617000E70830 /* Login-Backgrd.jpg */,
+				B3F01BC11E9B5ADC00E70830 /* Camera.png */,
+				B3E9F96B1E9C9F0900973F14 /* search (1).png */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
 		B3F01BBA1E9B44F300E70830 /* MyTruck */ = {
 			isa = PBXGroup;
 			children = (
@@ -396,6 +476,8 @@
 		B3F01BC01E9B5AC600E70830 /* dummy */ = {
 			isa = PBXGroup;
 			children = (
+				B3E9F9721E9CB36D00973F14 /* refresh.png */,
+				B3E9F9691E9C9EE300973F14 /* magnifying-glass.png */,
 				B3F01BCC1E9BA6BD00E70830 /* IMG-user.jpg */,
 				B3F01BBE1E9B599000E70830 /* meter-car-speed.jpg */,
 				B3AC693A1E9793000091E68C /* reload.png */,
@@ -529,22 +611,38 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3E9F95E1E9C97CF00973F14 /* Delete.png in Resources */,
+				B3E9F96E1E9CA3C700973F14 /* Roboto-Italic.ttf in Resources */,
+				B3E9F9621E9C97CF00973F14 /* FavTab.png in Resources */,
 				B3AC69501E97B0780091E68C /* Roboto-Medium.ttf in Resources */,
 				B39919321E963E250030AC40 /* low.png in Resources */,
+				B3E9F9641E9C97CF00973F14 /* InboxTab.png in Resources */,
+				B3E9F95F1E9C97CF00973F14 /* Favourite-Active.png in Resources */,
 				B3F01BC21E9B5ADC00E70830 /* Camera.png in Resources */,
+				B3E9F9601E9C97CF00973F14 /* Favourite.png in Resources */,
 				B3AC693B1E9793000091E68C /* reload.png in Resources */,
+				B3E9F96A1E9C9EE300973F14 /* magnifying-glass.png in Resources */,
+				B3E9F9631E9C97CF00973F14 /* InboxTab-Active.png in Resources */,
 				B3AC694F1E97B0780091E68C /* Roboto-Light.ttf in Resources */,
 				B35884771E94C60F00458EC9 /* LaunchScreen.storyboard in Resources */,
 				B35884741E94C60F00458EC9 /* Assets.xcassets in Resources */,
 				B35884C51E94F02000458EC9 /* avatar-inside-a-circle.png in Resources */,
 				B3F01BCD1E9BA6BD00E70830 /* IMG-user.jpg in Resources */,
+				B3E9F9731E9CB36D00973F14 /* refresh.png in Resources */,
+				B3E9F9751E9CB50700973F14 /* fav_icon.png in Resources */,
 				B399192F1E963E250030AC40 /* bad.png in Resources */,
 				B3AC69521E97B0780091E68C /* Roboto-Thin.ttf in Resources */,
 				B39919301E963E250030AC40 /* disable.png in Resources */,
 				B35884C91E94F09600458EC9 /* search.png in Resources */,
+				B3E9F95D1E9C97CF00973F14 /* CreateMessage.png in Resources */,
+				B3E9F96C1E9C9F0900973F14 /* search (1).png in Resources */,
 				B35884721E94C60F00458EC9 /* Main.storyboard in Resources */,
+				B3E9F9681E9C9E3700973F14 /* SearchIcon.png in Resources */,
 				B3F01BBF1E9B599000E70830 /* meter-car-speed.jpg in Resources */,
 				B39919381E9645700030AC40 /* good.png in Resources */,
+				B3E9F9651E9C97CF00973F14 /* TrashTab-Active.png in Resources */,
+				B3E9F9661E9C97CF00973F14 /* TrashTab.png in Resources */,
+				B3E9F9611E9C97CF00973F14 /* FavTab-Active.png in Resources */,
 				B3F01BC41E9B617000E70830 /* Login-Backgrd.jpg in Resources */,
 				B35884CE1E9504BD00458EC9 /* check-circular-button.png in Resources */,
 				B3AC694E1E97B0780091E68C /* Roboto-Black.ttf in Resources */,
@@ -583,12 +681,14 @@
 				B35884A21E94CEA100458EC9 /* MFSideMenuContainerViewController.m in Sources */,
 				B35884BF1E94EEDB00458EC9 /* LoginFormViewController.m in Sources */,
 				B3AC69371E9775E00091E68C /* HistoryViewController.m in Sources */,
+				B3E9F94E1E9C961500973F14 /* InboxTableViewCell.m in Sources */,
 				B3F01BBD1E9B450C00E70830 /* MyTruckViewController.m in Sources */,
 				B399192A1E9609D30030AC40 /* VehicleInspectionTableViewCell.m in Sources */,
 				B35884CC1E94F4BC00458EC9 /* LoginFormTableViewCell.m in Sources */,
 				B3DB5B591E95F0ED00D476F6 /* Header.m in Sources */,
 				B39919361E9642A10030AC40 /* OperationViewController.m in Sources */,
 				B35884A31E94CEA100458EC9 /* MFSideMenuShadow.m in Sources */,
+				B3E9F9511E9C962200973F14 /* InboxViewController.m in Sources */,
 				B35884A41E94CEA100458EC9 /* UIViewController+MFSideMenuAdditions.m in Sources */,
 				B35884AA1E94CEB800458EC9 /* SideMenuViewController.m in Sources */,
 				B35884B61E94E30500458EC9 /* LoginViewController.m in Sources */,

@@ -12,4 +12,5 @@
 
 @interface OperationViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITabBar *tabbarBottom;
 @end
