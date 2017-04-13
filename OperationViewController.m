@@ -17,6 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    self.tabbarHeightConstraints.constant = 55.0f;
 }
 
 - (void)didReceiveMemoryWarning {

@@ -1108,14 +1108,26 @@
                                             <constraint firstAttribute="height" constant="40" id="ueO-6r-vEH"/>
                                         </constraints>
                                         <inset key="imageEdgeInsets" minX="8" minY="8" maxX="8" maxY="8"/>
-                                        <state key="normal" image="search.png"/>
+                                        <state key="normal" image="search (1).png"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DPi-Fa-dis">
+                                        <rect key="frame" x="279" y="12" width="40" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="40" id="e9c-I7-Mwg"/>
+                                            <constraint firstAttribute="height" constant="40" id="v9D-J6-CsL"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <inset key="imageEdgeInsets" minX="8" minY="8" maxX="8" maxY="8"/>
+                                        <state key="normal" title="SOS"/>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.19215686269999999" green="0.1843137255" blue="0.19215686269999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="VF0-20-NAi" secondAttribute="trailing" constant="8" id="0gf-ZE-s8k"/>
                                     <constraint firstItem="u8A-9E-tlb" firstAttribute="leading" secondItem="35Q-UZ-45h" secondAttribute="trailing" constant="8" id="5K7-NQ-HKM"/>
+                                    <constraint firstItem="VF0-20-NAi" firstAttribute="leading" secondItem="DPi-Fa-dis" secondAttribute="trailing" constant="8" id="ECn-Xd-8ad"/>
                                     <constraint firstItem="u8A-9E-tlb" firstAttribute="centerY" secondItem="35Q-UZ-45h" secondAttribute="centerY" id="P2p-2p-vQ1"/>
+                                    <constraint firstItem="DPi-Fa-dis" firstAttribute="centerY" secondItem="JJI-zA-aMH" secondAttribute="centerY" id="V5I-iz-gwz"/>
                                     <constraint firstItem="VF0-20-NAi" firstAttribute="centerY" secondItem="JJI-zA-aMH" secondAttribute="centerY" id="aJb-Fc-udb"/>
                                     <constraint firstItem="35Q-UZ-45h" firstAttribute="centerY" secondItem="JJI-zA-aMH" secondAttribute="centerY" id="c8X-jN-vq9"/>
                                     <constraint firstItem="VF0-20-NAi" firstAttribute="leading" secondItem="u8A-9E-tlb" secondAttribute="trailing" constant="8" id="oHU-UN-Ml9"/>
@@ -1123,35 +1135,40 @@
                                     <constraint firstItem="35Q-UZ-45h" firstAttribute="leading" secondItem="JJI-zA-aMH" secondAttribute="leading" constant="8" id="zFw-ao-yM6"/>
                                 </constraints>
                             </view>
-                            <tabBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UPV-9p-QCF">
+                            <tabBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="81S-ek-ENR">
                                 <rect key="frame" x="0.0" y="618" width="375" height="49"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="0.2156862745" green="0.20000000000000001" blue="0.20392156859999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="49" id="riT-O7-Eq6"/>
+                                </constraints>
                                 <items>
-                                    <tabBarItem badgeValue="1" systemItem="favorites" id="faI-zS-2S0"/>
-                                    <tabBarItem tag="1" badgeValue="2" systemItem="more" id="Pz9-6l-o5g"/>
-                                    <tabBarItem title="Item" id="BE9-lj-u0A"/>
+                                    <tabBarItem title="NEW REQUEST" image="Operations-NewRequest-Active.png" badgeValue="1" id="HyF-RZ-1js"/>
+                                    <tabBarItem tag="1" title="IN PROCESS" image="Operations-InProcess-Active.png" id="u5X-Fy-4fU"/>
+                                    <tabBarItem tag="2" title="CURRENT DRIVE" image="Operations-CurrentDrive-Active.png" id="pgG-Kd-AYt"/>
                                 </items>
                                 <color key="tintColor" red="0.90980392160000001" green="0.1137254902" blue="0.1333333333" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="barTintColor" red="0.2156862745" green="0.20000000000000001" blue="0.20392156859999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="selectedImageTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <connections>
-                                    <outlet property="delegate" destination="acC-5x-Am7" id="31Y-aU-Tvi"/>
+                                    <outlet property="delegate" destination="RXr-lu-Osp" id="bO9-w2-Vqg"/>
                                 </connections>
                             </tabBar>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstAttribute="bottom" secondItem="81S-ek-ENR" secondAttribute="bottom" id="BRj-s9-YuG"/>
                             <constraint firstAttribute="trailing" secondItem="JJI-zA-aMH" secondAttribute="trailing" id="Uij-k4-bkB"/>
                             <constraint firstItem="JJI-zA-aMH" firstAttribute="top" secondItem="rm6-u9-1FF" secondAttribute="top" constant="15" id="d7c-Jk-LLb"/>
-                            <constraint firstItem="UPV-9p-QCF" firstAttribute="leading" secondItem="rm6-u9-1FF" secondAttribute="leading" id="fIb-pJ-1Tq"/>
+                            <constraint firstItem="81S-ek-ENR" firstAttribute="leading" secondItem="rm6-u9-1FF" secondAttribute="leading" id="jNo-7P-t3L"/>
                             <constraint firstItem="JJI-zA-aMH" firstAttribute="leading" secondItem="rm6-u9-1FF" secondAttribute="leading" id="k4P-oB-ML7"/>
-                            <constraint firstAttribute="trailing" secondItem="UPV-9p-QCF" secondAttribute="trailing" id="oBX-MS-NFa"/>
-                            <constraint firstAttribute="bottom" secondItem="UPV-9p-QCF" secondAttribute="bottom" id="wUH-9P-0kS"/>
+                            <constraint firstAttribute="trailing" secondItem="81S-ek-ENR" secondAttribute="trailing" id="t60-xN-yQP"/>
                         </constraints>
                     </view>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="375" height="667"/>
                     <connections>
-                        <outlet property="tabbarBottom" destination="UPV-9p-QCF" id="nf4-fi-SkW"/>
+                        <outlet property="tabbarHeightConstraints" destination="riT-O7-Eq6" id="fk5-gx-DtX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BQ8-MI-BGd" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -2051,6 +2068,9 @@
         <image name="IMG-user.jpg" width="200" height="250"/>
         <image name="InboxTab-Active.png" width="24" height="24"/>
         <image name="Login-Backgrd.jpg" width="1080" height="1920"/>
+        <image name="Operations-CurrentDrive-Active.png" width="43" height="32"/>
+        <image name="Operations-InProcess-Active.png" width="48" height="36"/>
+        <image name="Operations-NewRequest-Active.png" width="48" height="36"/>
         <image name="TrashTab-Active.png" width="24" height="24"/>
         <image name="avatar-inside-a-circle.png" width="128" height="128"/>
         <image name="bars.png" width="128" height="128"/>
