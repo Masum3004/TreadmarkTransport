@@ -49,13 +49,6 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MiA-b2-fL5">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="650"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="avatar-inside-a-circle.png" translatesAutoresizingMaskIntoConstraints="NO" id="CdG-u3-bSe">
-                                                <rect key="frame" x="122" y="140" width="130" height="130"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="130" id="UjJ-iF-4pg"/>
-                                                    <constraint firstAttribute="height" constant="130" id="Uk8-Ob-nhV"/>
-                                                </constraints>
-                                            </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DRIVER'S LOG IN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QbX-eW-au9">
                                                 <rect key="frame" x="110.5" y="295" width="154.5" height="24"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
@@ -140,6 +133,13 @@
                                                     <action selector="btnLogin:" destination="86q-tq-8V4" eventType="touchUpInside" id="1pO-l2-xDC"/>
                                                 </connections>
                                             </button>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="avatar-inside-a-circle.png" translatesAutoresizingMaskIntoConstraints="NO" id="CdG-u3-bSe">
+                                                <rect key="frame" x="122" y="140" width="130" height="130"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="130" id="UjJ-iF-4pg"/>
+                                                    <constraint firstAttribute="height" constant="130" id="Uk8-Ob-nhV"/>
+                                                </constraints>
+                                            </imageView>
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -147,7 +147,6 @@
                                             <constraint firstAttribute="trailing" secondItem="3Ed-nx-5uN" secondAttribute="trailing" constant="13" id="2gE-mD-yfo"/>
                                             <constraint firstItem="CdG-u3-bSe" firstAttribute="centerX" secondItem="MiA-b2-fL5" secondAttribute="centerX" id="3h7-rz-cdP"/>
                                             <constraint firstAttribute="trailing" secondItem="a1r-J3-z4X" secondAttribute="trailing" constant="13" id="8Rq-AR-vVt"/>
-                                            <constraint firstItem="CdG-u3-bSe" firstAttribute="top" secondItem="MiA-b2-fL5" secondAttribute="top" constant="140" id="GiZ-WF-xjv"/>
                                             <constraint firstItem="kAC-RN-wYU" firstAttribute="leading" secondItem="MiA-b2-fL5" secondAttribute="leading" constant="12" id="HuO-yA-E9Z"/>
                                             <constraint firstItem="QbX-eW-au9" firstAttribute="centerX" secondItem="MiA-b2-fL5" secondAttribute="centerX" id="OZG-P3-YVX"/>
                                             <constraint firstItem="a1r-J3-z4X" firstAttribute="top" secondItem="QbX-eW-au9" secondAttribute="bottom" constant="20" id="RYu-ob-v0w"/>
@@ -179,6 +178,7 @@
                             <constraint firstItem="Lhk-3s-AQ9" firstAttribute="top" secondItem="Kgj-zP-giX" secondAttribute="top" id="Waj-ff-Uta"/>
                             <constraint firstItem="d7V-g5-EnG" firstAttribute="top" secondItem="Kgj-zP-giX" secondAttribute="top" id="XCw-JZ-O4X"/>
                             <constraint firstItem="d7V-g5-EnG" firstAttribute="leading" secondItem="Kgj-zP-giX" secondAttribute="leading" id="hOs-ui-U0p"/>
+                            <constraint firstItem="Lhk-3s-AQ9" firstAttribute="top" secondItem="CdG-u3-bSe" secondAttribute="bottom" constant="-270" id="hcI-xg-nCX"/>
                             <constraint firstAttribute="trailing" secondItem="d7V-g5-EnG" secondAttribute="trailing" id="ifE-ZV-UGw"/>
                             <constraint firstItem="Hdp-yN-VV8" firstAttribute="top" secondItem="Lhk-3s-AQ9" secondAttribute="bottom" id="n9g-ow-Qof"/>
                             <constraint firstAttribute="trailing" secondItem="Lhk-3s-AQ9" secondAttribute="trailing" id="veF-pp-q02"/>
@@ -217,7 +217,7 @@
         <scene sceneID="EhU-aJ-k2X">
             <objects>
                 <navigationController storyboardIdentifier="navigationController" definesPresentationContext="YES" navigationBarHidden="YES" id="zbg-VI-45G" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="e9I-Nl-w4z">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="e9I-Nl-w4z">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>

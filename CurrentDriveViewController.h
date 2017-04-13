@@ -7,7 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MapKit/MapKit.h>
+#import <CoreLocation/CoreLocation.h>
 
-@interface CurrentDriveViewController : UIViewController
 
+@interface CurrentDriveViewController : UIViewController<CLLocationManagerDelegate>
+{
+    CLLocationManager *objLocationManager;
+    double latitude_UserLocation, longitude_UserLocation;
+}
+
+@property (weak, nonatomic) IBOutlet MKMapView *objMapView; 
 @end

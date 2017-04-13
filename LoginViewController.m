@@ -41,12 +41,12 @@
    
     self.bottomSpaceConstraints.constant = 15.0f;
     
-    CAGradientLayer *gradient = [CAGradientLayer layer];
-    
-    gradient.frame = self.view.bounds;
-    gradient.colors = @[(id)[UIColor grayColor].CGColor, (id)[UIColor blackColor].CGColor];
-    
-    [self.view.layer insertSublayer:gradient atIndex:0];
+//    CAGradientLayer *gradient = [CAGradientLayer layer];
+//    
+//    gradient.frame = self.view.bounds;
+//    gradient.colors = @[(id)[UIColor grayColor].CGColor, (id)[UIColor blackColor].CGColor];
+//    
+//    [self.view.layer insertSublayer:gradient atIndex:0];
 }
 
 - (IBAction)btnLogin:(id)sender {

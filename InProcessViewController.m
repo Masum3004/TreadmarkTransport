@@ -36,10 +36,12 @@
 {
     
     InProcessTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"INPROCESS_CELL"];
+    
     cell.containerView.clipsToBounds = NO;
     cell.containerView.layer.shadowColor = [[UIColor grayColor] CGColor];
     cell.containerView.layer.shadowOffset = CGSizeMake(1,0);
     cell.containerView.layer.shadowOpacity = 1;
+    
     return cell;
 }
 
