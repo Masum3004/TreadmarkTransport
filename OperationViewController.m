@@ -8,6 +8,9 @@
 
 #import "OperationViewController.h"
 
+
+#define STORYBARD_ID_ARRAY @[@"NEW_REQUEST_LIST", @"IN_PROCESS", @"CURRENT_DRIVE"]
+
 @interface OperationViewController ()
 
 @end
@@ -18,7 +21,11 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    self.tabbarHeightConstraints.constant = 55.0f;
+    self.tabbarHeightConstraints.constant = 49.0;
+   
+    [_operationTabbar setSelectedItem:[_operationTabbar.items objectAtIndex:0]];
+
+   
 }
 
 - (void)didReceiveMemoryWarning {
@@ -33,6 +40,15 @@
 
 - (void)tabBar:(UITabBar *)tabBar didSelectItem:(UITabBarItem *)item{
     
-    NSLog(@"----->> %ld",(long)tabBar.itemPositioning);
+    
+    UIViewController *vc = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:[STORYBARD_ID_ARRAY objectAtIndex:item.tag]];
+   
+    [self addChildViewController:vc];
+    
+    vc.view.frame = CGRectMake(0, 0, self.containerView.frame.size.width, self.containerView.frame.size.height);
+    
+    [self.containerView addSubview:vc.view];
+    
+
 }
 @end
