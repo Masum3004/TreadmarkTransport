@@ -9,6 +9,7 @@
 #import "NewRequestListViewController.h"
 #import "MFSideMenu.h"
 #import "NewRequestTableViewCell.h"
+#import "AppConstant.h"
 
 @interface NewRequestListViewController ()
 
@@ -45,5 +46,10 @@
     return cell;
 }
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+ 
+    UIViewController *viewController = [self.storyboard instantiateViewControllerWithIdentifier:NEW_REQUEST_DETAIL_Identifier];
+    [self presentViewController:viewController animated:YES completion:nil];
+}
 
 @end

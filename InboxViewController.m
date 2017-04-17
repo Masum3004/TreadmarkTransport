@@ -22,9 +22,11 @@
     // Do any additional setup after loading the view.
     
     [_InboxTabbar setSelectedItem:[_InboxTabbar.items objectAtIndex:0]];
+   
 }
 
 - (void)didReceiveMemoryWarning {
+    
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
@@ -93,23 +95,6 @@
 
 - (void)tabBar:(UITabBar *)tabBar didSelectItem:(UITabBarItem *)item {
     
-    switch (item.tag) {
-        
-        case 0:
-            [self.lblTitleNavigation setText:@"INBOX"];
-            break;
-            
-        case 1:
-            [self.lblTitleNavigation setText:@"FAVOURITE"];
-            break;
-            
-        case 2:
-            [self.lblTitleNavigation setText:@"TRASH"];
-            break;
-            
-        default:
-            break;
-    }
     
     [self.inboxTableView reloadData];
 }

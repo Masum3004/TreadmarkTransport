@@ -138,13 +138,10 @@
 {
     CGSize maximumSize = CGSizeMake(280, 10000);
     
-    CGSize labelHeightSize = [string sizeWithFont:[UIFont fontWithName:@"Helvetica" size:18.0f] constrainedToSize:maximumSize lineBreakMode:NSLineBreakByWordWrapping];
+    CGSize labelHeightSize = [string sizeWithFont:[UIFont fontWithName:@"Helvetica" size:15.0f] constrainedToSize:maximumSize lineBreakMode:NSLineBreakByWordWrapping];
     
-    if(labelHeightSize.height < 44){
-        labelHeightSize.height = 44;
-    }
     
-    return labelHeightSize.height;
+    return labelHeightSize.height + 30;
 }
 
 

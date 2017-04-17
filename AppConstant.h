@@ -29,4 +29,9 @@
 
 #define INBOX_Identifier @"INBOX"
 
+#define NEW_REQUEST_LIST_Identifier @"NEW_REQUEST_LIST"
+
+#define NEW_REQUEST_DETAIL_Identifier @"NEW_REQUEST_DETAIL"
+
+
 #endif /* AppConstant_h */

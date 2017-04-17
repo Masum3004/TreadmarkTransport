@@ -192,10 +192,10 @@
         
         NSInteger description = 0;
         if ([[descriptionArr objectAtIndex:indexPath.row] integerValue] >0) {
-            description = 110
-           ;
+            
+            description = 110;
         }
-        return dataTextHeight + 50 + description;
+        return dataTextHeight + 60 + description;
         
     }
     else if (indexPath.row == 6 || indexPath.row == 4 || indexPath.row == 5) {
@@ -209,7 +209,7 @@
     }
     else {
 
-        return dataTextHeight + 40;
+        return dataTextHeight + 70;
         
     }
     
@@ -220,11 +220,11 @@
 {
     CGSize maximumSize = CGSizeMake(280, 10000);
     
-    CGSize labelHeightSize = [string sizeWithFont:[UIFont fontWithName:@"Helvetica" size:18.0f] constrainedToSize:maximumSize lineBreakMode:NSLineBreakByWordWrapping];
+    CGSize labelHeightSize = [string sizeWithFont:[UIFont fontWithName:@"Helvetica" size:17.0f] constrainedToSize:maximumSize lineBreakMode:NSLineBreakByWordWrapping];
     
-    if(labelHeightSize.height < 44){
-        labelHeightSize.height = 44;
-    }
+//    if(labelHeightSize.height < 44){
+//        labelHeightSize.height = 44;
+//    }
     
     return labelHeightSize.height;
 }
