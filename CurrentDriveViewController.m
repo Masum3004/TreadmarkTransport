@@ -7,6 +7,7 @@
 //
 
 #import "CurrentDriveViewController.h"
+#import "AppConstant.h"
 
 @interface CurrentDriveViewController ()
 
@@ -24,6 +25,11 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (IBAction)btnDetails:(id)sender {
+    
+    UIViewController *viewcontroller = [self.storyboard instantiateViewControllerWithIdentifier:CURRENT_DRIVE_DETAIL_Identifier];
+    [self presentViewController:viewcontroller animated:YES completion:nil];
 }
 
 - (void) loadUserLocation
@@ -62,6 +68,11 @@
     [_objMapView setRegion:objMapRegion];
     [_objMapView setMapType:MKMapTypeStandard];
     
+}
+- (IBAction)btnArrive:(id)sender {
+    
+    UIViewController *viewController = [self.storyboard instantiateViewControllerWithIdentifier:@"DELIVERY _CONFIRMATION"];
+    [self presentViewController:viewController animated:YES completion:nil];
 }
 
 @end

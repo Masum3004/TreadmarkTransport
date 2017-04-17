@@ -33,6 +33,10 @@
 		B35884CE1E9504BD00458EC9 /* check-circular-button.png in Resources */ = {isa = PBXBuildFile; fileRef = B35884CD1E9504BD00458EC9 /* check-circular-button.png */; };
 		B35E2E141EA475E400C78BDD /* NewRequestDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B35E2E131EA475E400C78BDD /* NewRequestDetailViewController.m */; };
 		B35E2E161EA48FEF00C78BDD /* left-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B35E2E151EA48FEF00C78BDD /* left-arrow.png */; };
+		B35E2E211EA4B8DF00C78BDD /* CurrentDriveDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B35E2E201EA4B8DF00C78BDD /* CurrentDriveDetailViewController.m */; };
+		B35E2E241EA4BEB000C78BDD /* CurrentDriveTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B35E2E231EA4BEB000C78BDD /* CurrentDriveTableViewCell.m */; };
+		B35E2E271EA4C7A600C78BDD /* DeliveryConfirmationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B35E2E261EA4C7A600C78BDD /* DeliveryConfirmationViewController.m */; };
+		B35E2E2A1EA4D0AF00C78BDD /* PhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B35E2E291EA4D0AF00C78BDD /* PhotoCollectionViewCell.m */; };
 		B399192A1E9609D30030AC40 /* VehicleInspectionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B39919291E9609D30030AC40 /* VehicleInspectionTableViewCell.m */; };
 		B399192F1E963E250030AC40 /* bad.png in Resources */ = {isa = PBXBuildFile; fileRef = B399192B1E963E250030AC40 /* bad.png */; };
 		B39919301E963E250030AC40 /* disable.png in Resources */ = {isa = PBXBuildFile; fileRef = B399192C1E963E250030AC40 /* disable.png */; };
@@ -155,6 +159,14 @@
 		B35E2E121EA475E400C78BDD /* NewRequestDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewRequestDetailViewController.h; sourceTree = "<group>"; };
 		B35E2E131EA475E400C78BDD /* NewRequestDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewRequestDetailViewController.m; sourceTree = "<group>"; };
 		B35E2E151EA48FEF00C78BDD /* left-arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "left-arrow.png"; sourceTree = "<group>"; };
+		B35E2E1F1EA4B8DF00C78BDD /* CurrentDriveDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrentDriveDetailViewController.h; sourceTree = "<group>"; };
+		B35E2E201EA4B8DF00C78BDD /* CurrentDriveDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrentDriveDetailViewController.m; sourceTree = "<group>"; };
+		B35E2E221EA4BEB000C78BDD /* CurrentDriveTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrentDriveTableViewCell.h; sourceTree = "<group>"; };
+		B35E2E231EA4BEB000C78BDD /* CurrentDriveTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrentDriveTableViewCell.m; sourceTree = "<group>"; };
+		B35E2E251EA4C7A600C78BDD /* DeliveryConfirmationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeliveryConfirmationViewController.h; sourceTree = "<group>"; };
+		B35E2E261EA4C7A600C78BDD /* DeliveryConfirmationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeliveryConfirmationViewController.m; sourceTree = "<group>"; };
+		B35E2E281EA4D0AF00C78BDD /* PhotoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCollectionViewCell.h; sourceTree = "<group>"; };
+		B35E2E291EA4D0AF00C78BDD /* PhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCollectionViewCell.m; sourceTree = "<group>"; };
 		B39919281E9609D30030AC40 /* VehicleInspectionTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VehicleInspectionTableViewCell.h; sourceTree = "<group>"; };
 		B39919291E9609D30030AC40 /* VehicleInspectionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VehicleInspectionTableViewCell.m; sourceTree = "<group>"; };
 		B399192B1E963E250030AC40 /* bad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bad.png; sourceTree = "<group>"; };
@@ -416,6 +428,10 @@
 				B3DFCD381E9F380200A86BB3 /* NewRequest */,
 				B3DFCD371E9F37FA00A86BB3 /* InProcess */,
 				B3DFCD361E9F37EC00A86BB3 /* CurrentDrive */,
+				B35E2E251EA4C7A600C78BDD /* DeliveryConfirmationViewController.h */,
+				B35E2E261EA4C7A600C78BDD /* DeliveryConfirmationViewController.m */,
+				B35E2E281EA4D0AF00C78BDD /* PhotoCollectionViewCell.h */,
+				B35E2E291EA4D0AF00C78BDD /* PhotoCollectionViewCell.m */,
 			);
 			name = OperationViewController;
 			sourceTree = "<group>";
@@ -502,6 +518,10 @@
 			children = (
 				B3DFCD471E9F3D3200A86BB3 /* CurrentDriveViewController.h */,
 				B3DFCD481E9F3D3200A86BB3 /* CurrentDriveViewController.m */,
+				B35E2E1F1EA4B8DF00C78BDD /* CurrentDriveDetailViewController.h */,
+				B35E2E201EA4B8DF00C78BDD /* CurrentDriveDetailViewController.m */,
+				B35E2E221EA4BEB000C78BDD /* CurrentDriveTableViewCell.h */,
+				B35E2E231EA4BEB000C78BDD /* CurrentDriveTableViewCell.m */,
 			);
 			name = CurrentDrive;
 			sourceTree = "<group>";
@@ -796,12 +816,14 @@
 				B358846F1E94C60F00458EC9 /* ViewController.m in Sources */,
 				B399193B1E9646A40030AC40 /* MenuRowTableViewCell.m in Sources */,
 				B3DFCD491E9F3D3200A86BB3 /* CurrentDriveViewController.m in Sources */,
+				B35E2E2A1EA4D0AF00C78BDD /* PhotoCollectionViewCell.m in Sources */,
 				B3F01BC81E9BA04200E70830 /* MyProfileViewController.m in Sources */,
 				B3AC693E1E9794520091E68C /* HistoryTableViewCell.m in Sources */,
 				B3DB5B5D1E95F14400D476F6 /* VehicleInspectionViewController.m in Sources */,
 				B35884A21E94CEA100458EC9 /* MFSideMenuContainerViewController.m in Sources */,
 				B35884BF1E94EEDB00458EC9 /* LoginFormViewController.m in Sources */,
 				B3DFCD3C1E9F385300A86BB3 /* NewRequestListViewController.m in Sources */,
+				B35E2E211EA4B8DF00C78BDD /* CurrentDriveDetailViewController.m in Sources */,
 				B3AC69371E9775E00091E68C /* HistoryViewController.m in Sources */,
 				B3E9F94E1E9C961500973F14 /* InboxTableViewCell.m in Sources */,
 				B3F01BBD1E9B450C00E70830 /* MyTruckViewController.m in Sources */,
@@ -813,10 +835,12 @@
 				B3E9F9511E9C962200973F14 /* InboxViewController.m in Sources */,
 				B35884A41E94CEA100458EC9 /* UIViewController+MFSideMenuAdditions.m in Sources */,
 				B35884AA1E94CEB800458EC9 /* SideMenuViewController.m in Sources */,
+				B35E2E241EA4BEB000C78BDD /* CurrentDriveTableViewCell.m in Sources */,
 				B3DFCD461E9F3D0A00A86BB3 /* InProcessViewController.m in Sources */,
 				B35E2E141EA475E400C78BDD /* NewRequestDetailViewController.m in Sources */,
 				B35884B61E94E30500458EC9 /* LoginViewController.m in Sources */,
 				B358846C1E94C60F00458EC9 /* AppDelegate.m in Sources */,
+				B35E2E271EA4C7A600C78BDD /* DeliveryConfirmationViewController.m in Sources */,
 				B35884A91E94CEB800458EC9 /* DemoViewController.m in Sources */,
 				B3F01BCB1E9BA1E300E70830 /* MyProfileTableViewCell.m in Sources */,
 				B3DFCD431E9F3CEC00A86BB3 /* InProcessTableViewCell.m in Sources */,
