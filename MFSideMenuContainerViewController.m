@@ -159,8 +159,11 @@ typedef enum {
 #pragma mark - UIViewController Rotation
 
 -(NSUInteger)supportedInterfaceOrientations {
+    
     if (self.centerViewController) {
+      
         if ([self.centerViewController isKindOfClass:[UINavigationController class]]) {
+          
             return [((UINavigationController *)self.centerViewController).topViewController supportedInterfaceOrientations];
         }
         return [self.centerViewController supportedInterfaceOrientations];
@@ -169,7 +172,9 @@ typedef enum {
 }
 
 -(BOOL)shouldAutorotate {
+   
     if (self.centerViewController) {
+    
         if ([self.centerViewController isKindOfClass:[UINavigationController class]]) {
             return [((UINavigationController *)self.centerViewController).topViewController shouldAutorotate];
         }

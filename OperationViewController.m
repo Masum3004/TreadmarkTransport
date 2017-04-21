@@ -24,8 +24,7 @@
     self.tabbarHeightConstraints.constant = 49.0;
    
     [_operationTabbar setSelectedItem:[_operationTabbar.items objectAtIndex:0]];
-
-   
+ 
 }
 
 - (void)didReceiveMemoryWarning {

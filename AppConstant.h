@@ -10,6 +10,13 @@
 #define AppConstant_h
 
 
+/*    Application URL     */
+
+#define BASE_URL @"http://www.adcreatorsdemo.com.au/trademarksoftware/backend/web/index.php?r=mobile/"
+
+#define LOGIN_URL @"login"
+
+
 /*    View Controller Identifier     */
 
 
@@ -22,6 +29,8 @@
 #define OPERATION_Identifier @"OPERATION"
 
 #define HISTORY_Identifier @"HISTORY"
+
+#define HISTORY_DETAIL_Identifier @"HISTORY_DETAIL"
 
 #define MYTRUCK_Identifier @"MY_TRUCK"
 

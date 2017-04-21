@@ -171,8 +171,6 @@
         cell = [tableView dequeueReusableCellWithIdentifier:MyIdentifier];
         cell.lblCell4.text = [placeholderArr objectAtIndex:indexPath.row];
     }
-    
-    
     return cell;
 }
 

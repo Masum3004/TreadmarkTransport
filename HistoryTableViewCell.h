@@ -12,4 +12,9 @@
 @property (weak, nonatomic) IBOutlet UIView *containerView;
 @property (weak, nonatomic) IBOutlet UIImageView *refreshImageView;
 
+
+
+//Details
+@property (weak, nonatomic) IBOutlet UIView *labelView;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *labelViewHeightConstraint;
 @end

@@ -9,6 +9,7 @@
 #import "HistoryViewController.h"
 #import "MFSideMenu.h"
 #import "HistoryTableViewCell.h"
+#import "AppConstant.h"
 
 
 @interface HistoryViewController ()
@@ -48,12 +49,21 @@
 {
     
     HistoryTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"HISTORY_CELL"];
+   
     cell.containerView.clipsToBounds = NO;
     cell.containerView.layer.shadowColor = [[UIColor grayColor] CGColor];
     cell.containerView.layer.shadowOffset = CGSizeMake(1,0);
     cell.containerView.layer.shadowOpacity = 0.8;
     
     return cell;
+}
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    
+    UIViewController *viewController = [self.storyboard  instantiateViewControllerWithIdentifier:HISTORY_DETAIL_Identifier];
+    [self presentViewController:viewController animated:YES completion:nil];
 }
 
 @end

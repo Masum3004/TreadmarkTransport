@@ -18,11 +18,11 @@
 @implementation InboxViewController
 
 - (void)viewDidLoad {
+    
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
     [_InboxTabbar setSelectedItem:[_InboxTabbar.items objectAtIndex:0]];
-   
 }
 
 - (void)didReceiveMemoryWarning {
@@ -53,7 +53,7 @@
             return 0;
             break;
     }
-      //count number of row from counting array hear cataGorry is An Array
+    
 }
 
 
@@ -66,6 +66,7 @@
     switch (self.InboxTabbar.selectedItem.tag) {
             
         case 0:
+           
             cell.btnFavourite.hidden = NO;
             [cell.btnFavourite setImage:[UIImage imageNamed:@"Favourite.png"] forState:UIControlStateNormal];
             [cell.btnTrash setImage:[UIImage imageNamed:@"Delete.png"] forState:UIControlStateNormal];
